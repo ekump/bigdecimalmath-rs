@@ -1,5 +1,7 @@
 # BigDecimalMath-RS [![bigdecimalmath-rs](https://docs.rs/bond/badge.svg?style=svg)](https://docs.rs/bigdecimalmath-rs) [![CircleCI](https://circleci.com/gh/ekump/bigdecimalmath-rs.svg?style=svg)](https://circleci.com/gh/ekump/bigdecimalmath-rs)
 
+[Documentation](https://docs.rs/bigdecimalmath/0.1.0/bigdecimalmath/)
+
 A collection of mathematical functions for the [BigDecimal](https://github.com/akubera/bigdecimal-rs) type. These functions are Rust implementations of Richard J. Mathar's [A Java Math.BigDecimal Implementation of Core Mathematical Functions](https://arxiv.org/abs/0908.3030v3). Where necessary, some functions from [OpenJDK's implementation of BigDecimal](https://github.com/openjdk-mirror/jdk7u-jdk/blob/master/src/share/classes/java/math/BigDecimal.java) have also been reimplemented here.
 
 ## Note
