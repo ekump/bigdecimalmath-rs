@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/rust
+
+    steps:
+      - checkout
+      - run:
+          name: Build Release
+          command: cargo build --release --verbose
+
+      - run:
+          name: Unit Tests
+          command: cargo test
+
+      - run:
+          name: Linter
+          command: |
+            rustup component add clippy
+            cargo clippy -- -Dwarnings
+      - run:
+          name: Fmt
+          command: |
+            rustup install nightly
+            rustup component add rustfmt --toolchain nightly
+            cargo +nightly fmt --all -- --check
