@@ -1,0 +1,8 @@
+comment_width = 120
+format_strings = true
+imports_indent = "Visual"
+max_width = 120
+tab_spaces = 4
+trailing_comma = "Never"
+unstable_features = true
+wrap_comments = true
