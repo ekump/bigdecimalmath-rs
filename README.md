@@ -1,4 +1,4 @@
-# BigDecimalMath-RS [![bigdecimalmath-rs](https://docs.rs/bond/badge.svg?style=svg)](https://docs.rs/bigdecimalmath-rs) [![CircleCI](https://circleci.com/gh/ekump/bigdecimalmath-rs.svg?style=svg)](https://circleci.com/gh/ekump/bigdecimalmath-rs)
+# BigDecimalMath-RS [![bigdecimalmath-rs](https://docs.rs/bond/badge.svg?style=svg)](https://docs.rs/bigdecimalmath) [![CircleCI](https://circleci.com/gh/ekump/bigdecimalmath-rs.svg?style=svg)](https://circleci.com/gh/ekump/bigdecimalmath-rs)
 
 [Documentation](https://docs.rs/bigdecimalmath/0.1.0/bigdecimalmath/)
 
