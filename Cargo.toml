@@ -1,0 +1,14 @@
+[package]
+name = "bigdecimalmath"
+description = "Mathematical functions for the BigDecimal type"
+documentation = "https://docs.rs/bigdecimalmath"
+homepage = "https://github.com/ekump/bigdecimalmath-rs"
+repository = "https://github.com/ekump/bigdecimalmath-rs"
+keywords = ["mathematics", "numerics", "decimal", "arbitrary-precision", "floating-point"]
+license = "GPL-2.0"
+version = "0.1.0"
+authors = ["Edmund Kump"]
+edition = "2018"
+
+[dependencies]
+bigdecimal = "~0.2"
